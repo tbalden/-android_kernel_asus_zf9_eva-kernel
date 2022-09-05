@@ -1,4 +1,4 @@
-KBUILD_OPTIONS+= EVA_ROOT=$(KERNEL_SRC)/$(M)
+KBUILD_OPTIONS += EVA_ROOT=$(KERNEL_SRC)/$(M)
 KBUILD_OPTIONS += KBUILD_EXTRA_SYMBOLS=$(ANDROID_BUILD_TOP)/out/vendor/qcom/opensource/mmrm-driver/Module.symvers
 
 all:
